@@ -1,3 +1,4 @@
+
 /**
  * Возвращает объект с количеством вхождений типов в переданном объекте
  * 
@@ -14,5 +15,5 @@ export const solutionFn = (obj) => {
             type_counts[type] = 1;
         }
     }
-    return type_counts;
+    return type_counts; // Возвращаем объект с типами и их количеством
 };
